@@ -1,0 +1,153 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divid{
+    height: 1px;
+    width: 100%;
+    background: #27AA5F;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+div{
+    display: flex;
+}
+
+.green-header {
+    color: #27AA5F;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.myForm{
+    width: 800px;
+    background: #34495E;
+    border-radius: 8px;
+    box-shadow: -3px 3px 5px #1C2732;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.myTodos{
+    width: 95%;
+    background: #34495E;
+    border-radius: 8px;
+    box-shadow: -3px 3px 5px #1C2732;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#form-div{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* 
+#buttonSendTask{
+    border: none; outline: none;
+    background: #27AE60;
+    color: azure;
+    font-size: 1rem;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    transition: .2s ease-in-out;
+    padding: 12px;
+} */
+
+#buttonSend {
+    width: 80%;
+    border: none; outline: none;
+    background: #27AE60;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    color: azure;
+    border-radius: 5px;
+
+}
+
+
+#filterButton{
+    cursor: pointer;
+    margin: 20px;
+    background: #3395AE;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 16px;
+    color: #F0F0F0;
+}
+
+
+input{
+    width: 80%;
+    border-radius: 6px;
+    background-color: #22313F;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    
+    min-width: 100px;
+    border: 1px solid #F4F4F4;
+    padding: 12px;
+    text-align: center;
+}
+
+td{
+    color: #F0F0F0;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #27AA5F;
+    font-size: 17px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #374654;
+
+}
+
+#treeButton{
+    margin: 3px;
+    padding: 4px;
+    border-radius: 3px;
+    border: 0.5px solid rgb(196, 196, 196);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
