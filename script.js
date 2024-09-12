@@ -179,16 +179,22 @@ function showTasks() {
     let tbody = document.createElement("tbody");
     let removeBtn = document.createElement("button");
     removeBtn.textContent = "Remove";
-    removeBtn.id = "RButton";
-    removeBtn.style.background = "#F6695E";
+    removeBtn.id = "treeButton";
+    removeBtn.style.background = "#27AE60";
+    removeBtn.style.width = '90%'
+
     let editBtn = document.createElement("button");
     editBtn.textContent = "Edit";
     editBtn.id = "treeButton";
-    editBtn.style.background = "#4DABF5";
+    editBtn.style.background = "#27AE60";
+    editBtn.style.width = '90%'
+
     let fixBtn = document.createElement("button");
     fixBtn.textContent = "End Mission";
     fixBtn.id = "treeButton";
-    fixBtn.style.background = "#FFAD33";
+    fixBtn.style.background = "#27AE60";
+    fixBtn.style.width = '90%'
+
 
     let tr = document.createElement("tr");
 
@@ -226,10 +232,3 @@ showTasks();
 buttonSend.addEventListener("click", addSol);
 myTodosDiv.appendChild(table);
 
-let removeBtn = document.querySelector("#RButton");
-
-removeBtn.addEventListener('click', removeSol);
-
-function removeSol() {
-    
-}
